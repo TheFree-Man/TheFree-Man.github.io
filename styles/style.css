@@ -7,6 +7,10 @@ header{
     border: 1px solid blue;
 }
 
+body{
+        font-family: sans-serif;
+}
+
 nav {
     text-align: center;
         background-color: #37474f;
@@ -108,7 +112,6 @@ footer ul li a{
 section {
     background-color: #E8EAF6;
     color: black;
-    text-align: center;
     align-content: center;
     padding: 10px;
 }
@@ -135,4 +138,62 @@ section {
 .column img {
   margin-top: 8px;
   vertical-align: middle;
+}
+
+<!--Contact-->
+
+main{
+    margin: 15px 200px;
+    padding: 20px;
+    border: solid black;
+    background: white;
+    min-height: 500px;
+}
+
+header p{
+    position: relative;
+    top: 10px;
+    font-style: italic;
+    text-align: center;
+}
+
+.required{
+    font-weight: bold;
+    color: red;
+}
+
+label{
+    float: left;
+    width: 112px; 
+    padding-right: 10px; 
+    text-align: right;
+}
+
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 220px;
+}
+
+input[type="radio"] {
+    width: 10px;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+}
+
+#button{
+    margin-left: 138px;
+    margin-top: .5em;
+    width: 8em;
+    background-color: orange;
+    border: 2px solid black;
+}
+
+#reset{
+    margin-top: .5em;
+    width: 8em;
+    background-color: orange;
+    border: 2px solid black;
 }
