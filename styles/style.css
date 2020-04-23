@@ -51,6 +51,15 @@ nav ul :hover{
     border: 1px solid grey;
 }
 
+.col_details {
+    column-count: 2;
+    column-rule: 2px solid darkblue;
+    column-gap: 50px;
+    padding: 2px;
+    margin: 2px;
+    color: black;
+}
+
 aside{
     border: 5px solid #37474f;
     width:17%;
@@ -139,6 +148,10 @@ section {
   margin-top: 8px;
   vertical-align: middle;
 }
+
+<!--Store-->
+
+
 
 <!--Contact-->
 
