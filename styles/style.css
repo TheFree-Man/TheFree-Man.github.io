@@ -3,12 +3,12 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
-    color: navajowhite;
+    color: #37474f;
     border: 1px solid blue;
 }
 
 body{
-        font-family: sans-serif;
+        font-family: monospace;
 }
 
 nav {
@@ -53,18 +53,19 @@ nav ul :hover{
 
 .col_details {
     column-count: 2;
-    column-rule: 2px solid darkblue;
+    column-rule: 2px solid #37474f;
     column-gap: 50px;
     padding: 2px;
     margin: 2px;
     color: black;
+    
 }
 
 aside{
     border: 5px solid #37474f;
-    width:17%;
+    width:16%;
     float: right;
-    text-align: left;
+    text-align: center;
 }
 
 aside ul li a{
@@ -74,13 +75,6 @@ aside ul li a{
 aside ul li {
     list-style-type: none;
     text-align: left;
-}
-
-.col_detail {
-    column-count: 3;
-    column-rule: 1px solid black;
-    column-gap: 50px;
-    padding: 2px;
 }
 
 footer {
@@ -123,25 +117,27 @@ section {
     color: black;
     align-content: center;
     padding: 10px;
+    text-align: center
 }
 
 <!--Gallery-->
 
 #row{
     vertical-align: middle;
-    justify-content: center;
+    
 }
 .row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
-  vertical-align: middle;
 }
 
 /* Create two equal columns that sits next to each other */
 .column {
   flex: 50%;
   padding: 0 4px;
+    width: 100%;
+    text-align: center;
 }
 
 .column img {
